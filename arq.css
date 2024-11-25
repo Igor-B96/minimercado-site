@@ -1,0 +1,49 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Destaque nos cabeçalhos */
+header, footer {
+    font-size: 1.2em;
+    background-color: #007bff; /* Azul padrão */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Espaçamento no formulário */
+form div {
+    margin-bottom: 15px;
+}
+
+/* Carrossel */
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Ajuste das listas de produtos */
+section#produtos ul, section#servicos ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* Estilo para cada item */
+section#produtos li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: calc(33.33% - 30px); /* 3 itens por linha */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Ajuste para as imagens */
+section#produtos img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
